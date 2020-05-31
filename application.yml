@@ -1,0 +1,10 @@
+my:
+  greeting: Hello thiru update
+  list: values:one,two,three
+db:
+  connection: "{connectionString: 'http:/....../',userName: 'foo' ,password: 'pass'}"
+  server: 127.0.1
+  port: 1021
+
+management.endpoints.web.exposure.include: "*"
+spring.profiles.active: test
