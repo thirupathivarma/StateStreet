@@ -2,9 +2,8 @@ my:
   greeting: Hello thiru update
   list: values:one,two,three
 db:
-  connection: "{connectionString: 'http:/....../',userName: 'foo' ,password: 'pass'}"
+  connection: This is test profile connection String
   server: 127.0.1
-  port: 1021
+  port: 1000
 
 management.endpoints.web.exposure.include: "*"
-spring.profiles.active: test
